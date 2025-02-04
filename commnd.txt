@@ -1,9 +1,10 @@
 git init
 git add .
-git commit -m "Initial commit"
+git commit -m "5-2-2024"
 git remote add origin https://github.com/thekoushikdurgas/travelbackend.git
 git branch -M main
 git push -u origin main -f
 
-
+git config --global user.email "koushik.btech.cse.19@nitap.ac.in"
+git config --global user.name "thekoushikdurgas"
 streamlit run filemanager.py
